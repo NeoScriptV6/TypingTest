@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Train yourself</title>
+        <link rel="stylesheet" href="css/main.css"></link>
+        <link rel="stylesheet" href="css/fontAwesomeAll.css"/>
+
+    </head>
+
+
+    <body>
+        <img id="bg-image"src="images/bg.jpg">
+
+        <div id="main">
+            <div id="top-div">
+                <div id="title">
+                    <!-- <span id="title-text">Train your typing</span> -->
+                    <span class="fa fa-keyboard" id="keyboard-logo"></span>
+                    <div class="break-bar-big"></div>
+                </div>
+
+
+                <div id="training-text-div">
+                    <span class="textarea-title">Insert the text you want to train with:</span>
+                    <textarea spellcheck="false" id="training-text-textarea"></textarea>
+                    <span class="textarea-count"><span id="characters-in-training-text">0</span>/1000</span>
+
+                </div>
+            </div>
+
+            <div id="bottom-div">
+                <button id="start-button">Start</button>
+                <span id="loading" class="fa fa-arrows-spin"></span>
+
+            </div>
+        </div>
+
+        <div id="secondary">
+            <div id="train-display"></div>
+            <textarea spellcheck="false" id="train-input" placeholder="Time will start when you begin typing."></textarea>
+            <div style="height:60%; width:100%; display:flex;align-items: center;justify-content: center;">
+                <div id="time-box">
+                    <span id="time">00:00</span>
+                </div>
+                              
+                <div id="result-display">
+                    
+                    <div style="height:fit-content;;width:fit-content; display:flex; flex-direction:column;justify-content: center;align-items:baseline;">
+                        <span id="title">
+                            <span>Results</span>
+                            <span class="break-bar-medium" ></span>
+                        </span>
+                        <span class="result" id="result1"><span class="fa fa-language" style="margin-right:10px; color:rgba(0,0,0,0.7);"></span>Total characters: <span style="color:green; font-size:30px;" id="characters"></span></span>
+                        <span class="result" id="result2"><span class="fa fa-clock" style="margin-right:10px; color:rgba(0,0,0,0.7);"></span>Total time: <span style="color:green;font-size:30px;" id="total-time"></span></span>
+                        <span class="result" id="result3"><span class="fa fa-keyboard" style="margin-right:10px; color:rgba(0,0,0,0.7);"></span>Characters per second: <span style="color:green;font-size:30px;" id="char-per-sec"></span></span>
+                        <span class="result" id="result4"><span class="fa fa-xmark-circle" style="margin-right:10px; color:rgba(0,0,0,0.7);"></span>Total errors: <span style="color:red;font-size:30px;" id="total-errors"></span></span>
+
+                    </div>
+
+                </div>
+            </div>
+
+            
+        </div>
+    </img>
+
+
+        <div id="blur-screen" ></div>
+        <div id="message"></div>
+    </body>
+
+
+    <script type="text/javascript" src="./js/main2.js"></script>
+    <script type="text/javascript" src="./js/fontAwesomeAll.js"></script>
+
+</html>
