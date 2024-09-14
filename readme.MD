@@ -1,6 +1,6 @@
 # Introduction
 
-I made this program in one day just for personal use in only vanilla javascript, css and html. Now I decided to share it to get feedback and improve in managing projects.
+I made this program in one day just for personal use in only vanilla javascript, css and html. Now I decided to share it to get feedback and improve in managing projects and working with Github. And I know, I was extra lazy on the aesthetics.
 
 
 
